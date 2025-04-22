@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tick Rate Animation</title>
+  <style>
+    body { display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center; height: 100vh; margin: 0; }
+    canvas { border: 1px solid #333; margin: 10px; }
+    .container { text-align: center; }
+    .info { width: 100%; text-align: center; font-family: monospace; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>64 Tick</h2>
+    <canvas id="canvas64" width="800" height="100"></canvas>
+  </div>
+  <div class="container">
+    <h2>128 Tick</h2>
+    <canvas id="canvas128" width="800" height="100"></canvas>
+  </div>
+  <div class="info">
+    <div>Δ per update (128−64): <span id="diffVal">0</span> px</div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
