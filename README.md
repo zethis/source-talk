@@ -1,39 +1,38 @@
 # Timeline de l'intervention : Talk Show Counter-Strike
 
 ## 1. Introduction (2 minutes)
-- PrÃ©sentation rapid.
+- Présentation rapide.
 - Introduction au sujet : les serveurs 64-ticks vs 128-ticks dans Counter-Strike.
 
 ## 2. Explication des serveurs 64-ticks (4 minutes)
-- DÃ©©finition et fonctionnement.
-- Avantages et inconvÃ©nients.
+- Définition et fonctionnement.
+- Avantages et inconvénients.
 
 ## 3. Explication des serveurs 128-ticks (4 minutes)
-- DÃ©finition t fonctionnement.
+- Définition et fonctionnement.
 - Comparaison avec les serveurs 64-ticks.
-- **CoÃ»ts associÃ©s** : charge en bande passante et en processeur (128 fois par seconde au lieu de 64).
-- Raisons techniques pour lesquelles Valve ne les a jamais adoptÃ©s officiellement (contrairement Ã  FACEIT, ESEA, etc.).
+- **Coûts associés** : charge en bande passante et en processeur (128 fois par seconde au lieu de 64).
+- Raisons techniques pour lesquelles Valve ne les a jamais adoptés officiellement (contrairement à FACEIT, ESEA, etc.).
 
-## 4. Changement apportÃ© par Valve (4 minutes)
-- Pourquoi Valve a dÃ©cidÃ© de ne pas utiser les serveurs 128-ticks.
-- RÃ©action de la communautÃ© et nsÃ©quences sur la scÃ¨ne compÃ©titive.
+## 4. Changement apporté par Valve (4 minutes)
+- Pourquoi Valve a décidé de ne pas utiliser les serveurs 128-ticks.
+- Réaction de la communauté et conséquences sur la scène compétitive.
 
-## 5. PrÃ©sentation de la technologie subtick dans Source 2, pourquoi c'est gÃnial et nul a la fois ? (4 minutes)
-- Quâest-ce que le moteur Source 2 ?
-- Comment il amÃ©liore lâexpÃ©rience de jeu par rapport au moteur prÃ©cÃ©dent (Source 1).
-- timestamp
-- Introduction du **"sub-tick system"** dans CS2 et ses promesses : meilleure rÃ©activitÃ©, hit registration, etc.
-- interpolation
-- commande cl_interp et pourquoi valve la supprimÃ© (elle permettais de changer la valeur cotÃ© client, mais pas asser fair pour tout le monde, car tout le monde n'a pas un super ordi ET une superbe connexion)
-- picker avantage, le temps ou tu pick et le moment ou l'enmeni voit le pick
+## 5. Présentation de la technologie subtick dans Source 2, pourquoi c'est génial et nul à la fois ? (4 minutes)
+- Qu’est-ce que le moteur Source 2 ?
+- Comment il améliore l’expérience de jeu par rapport au moteur précédent (Source 1).
+- `timestamp`
+- Introduction du **"sub-tick system"** dans CS2 et ses promesses : meilleure réactivité, hit registration, etc.
+- `interpolation`
+- Commande `cl_interp` et pourquoi Valve l’a supprimée (elle permettait de changer la valeur côté client, mais pas assez fair pour tout le monde, car tout le monde n’a pas un super ordi ET une superbe connexion).
+- "Picker Advantage", le timing entre quand tu "peek" et quand l’ennemi voit ce peek.
 
 ## 6. Conclusion (2 minutes)
-- doubler les couts pour resoudre un problÃme technique n'est pas ÃlÃguant mais resoud les soucis
-- compromis ?
-- RÃ©capitulatif des points clÃ©s.
-- Session de questions/rÃ©ponses (si possible).
+- Doubler les coûts pour résoudre un problème technique n’est pas élégant, mais ça résout les soucis.
+- Compromis ?
+- Récapitulatif des points clés.
+- Session de questions/réponses (si possible).
 
 ---
 
-> ð **Note :** Nâoublie pas dâavoir un ou deux exemples visuels ou analogies pour illustrer la diffÃ©rence entre 64-tick et 128-tick (ex : frÃ©quence dâimages, capteurs, etc.).
-
+> 💡 **Note :** N’oublie pas d’avoir un ou deux exemples visuels ou analogies pour illustrer la différence entre 64-tick et 128-tick (ex : fréquence d’images, capteurs, etc.).
