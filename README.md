@@ -27,7 +27,7 @@
 ![](img/subtick.gif)
 - "Picker Advantage", le timing entre quand tu "peek" et quand l’ennemi voit ce peek.
 
-## 6. Conclusion (2 minutes)
+## 6. Conclusion
 - Doubler les coûts pour résoudre un problème technique n’est pas élégant, mais ça résout les soucis.
 - Compromis ?
 - Récapitulatif des points clés.
