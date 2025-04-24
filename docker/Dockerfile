@@ -5,8 +5,8 @@ FROM node:18-alpine
 WORKDIR /usr/src/app
 
 # Copy server and static files
-COPY server.js ./
-COPY public ./public
+COPY app/server.js ./
+COPY app/public ./public
 
 # Install dependencies
 RUN npm install express socket.io
